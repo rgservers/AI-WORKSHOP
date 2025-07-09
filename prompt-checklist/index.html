@@ -1,0 +1,130 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>AI Prompt Writing Checklist - AI Workshop by Rishi Gandhi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #2c3e50;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .wrapper {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+      animation: fadeIn 0.8s ease;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #34495e;
+      text-align: center;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .checklist {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      background-color: #f9f9f9;
+      border-left: 5px solid #3498db;
+      padding: 15px 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 1.6;
+      transition: background-color 0.3s ease;
+    }
+
+    .checklist input[type="checkbox"] {
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+
+    .checklist li.checked {
+      background-color: #d4edda;
+      border-left-color: #27ae60;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #aaa;
+      text-align: center;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>✅ AI Prompt Writing Checklist</h1>
+    <div class="tagline">Use this checklist to write clear and effective prompts for AI tasks</div>
+
+    <ul class="checklist">
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>1. Who are you?</strong><br>Clearly introduce yourself and your role or context.<br><em>e.g., "I am a Grade 9 student working on a science project."</em></span></li>
+
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>2. Who is the AI?</strong><br>Tell the AI what role it should take.<br><em>e.g., "You are my assistant who helps explain concepts clearly."</em></span></li>
+
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>3. What tone or style should the AI use?</strong><br>Choose how the AI should sound.<br><em>e.g., "Use a friendly and encouraging tone."</em></span></li>
+
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>4. What do you want the AI to do?</strong><br>Be specific about the task.<br><em>e.g., "Write a short summary of the French Revolution in 100 words."</em></span></li>
+
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>5. What format should the answer be in?</strong><br>Choose how you want the answer to look.<br><em>e.g., "Give the answer as a bullet-point list."</em></span></li>
+
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>6. Any special instructions or rules?</strong><br>Mention age group, word count, things to include or avoid.<br><em>e.g., "Use simple language for 10-year-olds. Avoid complicated words."</em></span></li>
+
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>7. Mention the response length</strong><br>Tell it how long it should be.<br><em>e.g., "Your response should include a 150 word paragraph and at least 7 pointers."</em></span></li>
+
+      <li><input type="checkbox" onchange="toggleChecked(this)"> <span><strong>8. (Optional) Add an example</strong><br>Show what you want by giving a sample or mini example.<br><em>e.g., "Here’s the kind of explanation I like: ‘Imagine you’re a caterpillar...’"</em></span></li>
+    </ul>
+
+    <div class="footer">
+      <i class="fas fa-robot"></i> Powered by RG Servers | © 2025
+    </div>
+  </div>
+
+  <script>
+    function toggleChecked(checkbox) {
+      const listItem = checkbox.closest('li');
+      listItem.classList.toggle('checked', checkbox.checked);
+    }
+  </script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;95c607313fd9c891&quot;,&quot;version&quot;:&quot;2025.6.2&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;676b4e0f9677472fbef1cbddd5e74d6c&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfEdge&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+
+</body></html>
